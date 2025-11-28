@@ -13,7 +13,7 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "start": "turbo run start",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "format": "pnpm exec biome format --write"
   },
   "keywords": [],
@@ -23,5 +23,8 @@
   "dependencies": {
     "biome": "^0.3.3",
     "turbo": "^2.6.1"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.14"
   }
 }
